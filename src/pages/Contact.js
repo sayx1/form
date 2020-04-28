@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import './contact.css';
+import { Link } from "gatsby"
 
 
 const Contact = () => (
@@ -11,6 +12,12 @@ const Contact = () => (
         <div className='contact__section'>
             <div className='contact__form'>
                 <h1>Code in Quarentine: Registration Form</h1>
+
+                    <div>
+
+                    <Link to='/' className='viewmore'>Learn More </Link>
+                   </div>
+                   
                 <div className='inner'>
                     <form method='post' name='contact' action='/thanks' data-netlify='true' netlify-honeypot='bot'>
                     <input type='hidden' name='form-name' value='contact' />
@@ -43,11 +50,17 @@ const Contact = () => (
                         <input type='text' name='college' />
                     </div>
 
+
+                    <div className='field'>
+                        <label>Year || Semester </label>
+                        <input type='text' name='year_semester' />
+                    </div>
+
                     <div className='submit'>
                         <button type='submit' className='btn__med'>Submit</button>
                     </div>
                     </form>
-                   
+
                 </div>
             </div>
         </div>

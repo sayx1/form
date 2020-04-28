@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Contact />
-    <Link to='/' className='viewmore'>Learn More </Link>
+    
   </Layout>
 )
 

@@ -31,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 60px;
-    margin: 170px 0;
+    margin: 200px 0;
 }
 
 .contact__form h1 {
@@ -92,6 +92,7 @@
 }
 
 .contact__thanks {
+    margin-top: 700px;
     height: 580px;
     display: flex;
     justify-content: center;
@@ -103,21 +104,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 580px;
+    min-height: 400px;
 }
 
 .viewmore {
-    font-family: Muli, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
+    font-family: Asap, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     color: white;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     display: block;
     text-decoration: none;
     transition: all 0.3 ease 0s;
 }
 
 .viewmore:hover{
-    color:#8B0000
+    color:black;
 }
