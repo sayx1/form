@@ -11,7 +11,7 @@ const Contact = () => (
         <div className='contact__header'></div>
         <div className='contact__section'>
             <div className='contact__form'>
-                <h1>Code in Quarentine: Registration Form</h1>
+                <h1>Code in Quarantine: Registration Form</h1>
 
                     <div>
 
