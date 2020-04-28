@@ -4,6 +4,24 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 350px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+
+    .contact__header {
+    background-image: url('../images/option.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 100%;
     width: 100vw;
     position: absolute;
     left: 50%;
@@ -11,6 +29,9 @@
     margin-left: -50vw;
     margin-right: -50vw;
     z-index: -1;
+
+}
+    
 }
 
 
@@ -92,8 +113,8 @@
 }
 
 .contact__thanks {
-    margin-top: 700px;
-    height: 580px;
+    margin-top: 50px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;

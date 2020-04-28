@@ -5,10 +5,11 @@ import './contact.css';
 
 const Thanks = () => (
     <Layout>
-        <div className='contact__header'></div>
         <div className='contact__thanks'>
             <h1>You have been Registered.</h1>
         </div>
+        <div className='contact__header'></div>
+        
     </Layout>
 )
 
